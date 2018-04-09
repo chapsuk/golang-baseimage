@@ -1,5 +1,5 @@
 NAME = chapsuk/golang-baseimage
-VERSION = 1.10
+VERSION = 1.10.1
 
 .PHONY: release
 release: build tag push
