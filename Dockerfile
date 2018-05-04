@@ -1,4 +1,4 @@
-FROM golang:1.10.1-alpine3.7
+FROM golang:1.10.2-alpine3.7
 
 RUN apk add --no-cache --update git make ca-certificates curl   \
     && go get -u github.com/golang/dep/cmd/dep                  \
