@@ -1,8 +1,5 @@
-FROM golang:1.10.2-alpine3.7
+FROM golang:1.10.3-alpine3.7
 
-RUN apk add --no-cache git make ca-certificates curl gcc musl-dev       \
-    && go get -u github.com/golang/dep/cmd/dep                          \
-    && go get -u github.com/golangci/golangci-lint/cmd/golangci-lint    \
-    && go get -u gopkg.in/alecthomas/gometalinter.v2                    \
-    && cp /go/bin/gometalinter.v2 /go/bin/gometalinter                  \
-    && gometalinter --install
+RUN apk add --no-cache git make ca-certificates curl gcc musl-dev                    \
+    && curl -sfL https://raw.githubusercontent.com/golang/dep/master/install.sh | sh \
+    && curl -sfL https://install.goreleaser.com/github.com/golangci/golangci-lint.sh | sh
