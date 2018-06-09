@@ -10,11 +10,11 @@ Golang build image with tools for build and check go programs.
 * dep
 * gcc
 * musl-dev
-* gometalinter with linters (`gometalinter --install`)
 * golangci-lint
 
 ## Versions
 
+* `1.10.3` - based on `golang:1.10.3-alpine3.7` removed `gometalinter`
 * `1.10.2.2` - added `golangci-lint`
 * `1.10.2.1` - added `gcc` and `musl-dev`
 * `1.10.2` - based on `golang:1.10.2-alpine3.7`
