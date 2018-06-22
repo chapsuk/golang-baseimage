@@ -2,6 +2,10 @@
 
 Golang build image with tools for build and check go programs.
 
+```bash
+> docker pull chapsuk/golang-baseimage
+```
+
 ## Contains
 
 * git
