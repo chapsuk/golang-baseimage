@@ -1,4 +1,4 @@
-NAME = chapsuk/golang-baseimage
+NAME = chapsuk/golang
 VERSION = develop
 
 .PHONY: release

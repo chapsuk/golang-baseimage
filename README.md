@@ -11,7 +11,8 @@ Docker golang build image
 * git
 * make
 * curl
-* dep
 * gcc
 * musl-dev
-* golangci-lint
+* [dep](https://github.com/golang/dep)
+* [golangci-lint](https://github.com/golangci/golangci-lint)
+* [ginkgo](https://github.com/onsi/ginkgo)
