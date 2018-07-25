@@ -17,3 +17,4 @@ Docker golang build image
 * [dep](https://github.com/golang/dep)
 * [golangci-lint](https://github.com/golangci/golangci-lint)
 * [ginkgo](https://github.com/onsi/ginkgo)
+* [dockerize](https://github.com/jwilder/dockerize)
