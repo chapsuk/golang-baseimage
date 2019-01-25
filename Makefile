@@ -1,5 +1,5 @@
 NAME = chapsuk/golang
-VERSION = develop
+VERSION ?= develop
 
 .PHONY: release
 release: build tag push
