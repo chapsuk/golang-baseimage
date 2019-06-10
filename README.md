@@ -1,12 +1,20 @@
 # Golang build image
 
-Docker golang build image
+Docker golang base images
+
+## Debian
 
 ```bash
-> docker pull chapsuk/golang
+> docker pull chapsuk/golang:1.12.5-debian
 ```
 
-## Contains
+* golangci-lint
+
+## Alpine
+
+```bash
+> docker pull chapsuk/golang:1.12.5-alpine
+```
 
 * git
 * make

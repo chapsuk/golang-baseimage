@@ -1,4 +1,4 @@
-FROM golang:1.12.3-alpine3.9
+FROM golang:1.12.5-alpine3.9
 
 RUN apk add --no-cache git make ca-certificates curl gcc musl-dev bash openssh-client       \
     && curl -sfL https://raw.githubusercontent.com/golang/dep/master/install.sh | sh        \
