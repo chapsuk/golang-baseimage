@@ -1,3 +1,3 @@
-FROM golang:1.12.5-stretch
+FROM golang:1.13.8-buster
 
 RUN curl -sfL https://install.goreleaser.com/github.com/golangci/golangci-lint.sh | sh

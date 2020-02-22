@@ -5,7 +5,7 @@ Docker golang base images
 ## Debian
 
 ```bash
-> docker pull chapsuk/golang:1.12.5-debian
+> docker pull chapsuk/golang:1.13.8-debian
 ```
 
 * golangci-lint
@@ -13,7 +13,7 @@ Docker golang base images
 ## Alpine
 
 ```bash
-> docker pull chapsuk/golang:1.12.5-alpine
+> docker pull chapsuk/golang:1.13.8-alpine
 ```
 
 * git
